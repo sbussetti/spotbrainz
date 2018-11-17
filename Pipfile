@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spotipy = {ref = "master", git = "https://github.com/plamere/spotipy.git"}
+tinydb = "*"
+tabulate = "*"
+
+[dev-packages]
+pylint = "*"
+ipdb = "*"
+
+[requires]
+python_version = "3.7"
